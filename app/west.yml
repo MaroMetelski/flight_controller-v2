@@ -12,3 +12,18 @@ manifest:
       revision: v3.1.0
       path: zephyr
       west-commands: scripts/west-commands.yml
+    - name: hal_st
+      revision: 52a522ca4a8a9ec1e9bb5bb514e1ab6f102863fe
+      path: modules/hal/st
+      groups:
+        - hal
+    - name: hal_stm32
+      revision: 51b373cd3455b8c2b9babbf6ff41918116a442ac
+      path: modules/hal/stm32
+      groups:
+        - hal
+    - name: cmsis
+      revision: 5f86244bad4ad5a590e084f0e72ba7a1416c2edf
+      path: modules/hal/cmsis
+      groups:
+        - hal

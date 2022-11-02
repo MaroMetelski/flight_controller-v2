@@ -1,0 +1,8 @@
+&timers3 {
+    st,prescaler = <100>;
+    pwm3: pwm {
+        pinctrl-0 = <&tim3_ch1_pb4 &tim3_ch2_pb5>;
+        pinctrl-names = "default";
+        status = "okay";
+    };
+};
