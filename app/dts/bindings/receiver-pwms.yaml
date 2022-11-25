@@ -1,0 +1,10 @@
+description: Radio Receiver PWMs parent node
+
+compatible: "receiver-pwms"
+
+properties:
+  pwms:
+    type: phandle-array
+    required: true
+    description: |
+      PWM input channels for radio receiver PWM output signal

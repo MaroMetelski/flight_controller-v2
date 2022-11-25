@@ -1,0 +1,25 @@
+description: DC motor PWMs parent node
+
+compatible: "motor-pwms"
+
+properties:
+  fr-pwm:
+    type: phandle
+    required: true
+    description: |
+      Front right motor PWM
+  fl-pwm:
+    type: phandle
+    required: true
+    description: |
+      Front left motor PWM
+  br-pwm:
+    type: phandle
+    required: true
+    description: |
+      Back right motor PWM
+  bl-pwm:
+    type: phandle
+    required: true
+    description: |
+      Back left motor PWM

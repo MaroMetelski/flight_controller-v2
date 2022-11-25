@@ -1,3 +1,11 @@
+/ {
+    receiver_pwms {
+        compatible = "receiver-pwms";
+        pwms = <&pwm3 1 0 PWM_POLARITY_NORMAL>,
+               <&pwm3 2 0 PWM_POLARITY_NORMAL>;
+    };
+};
+
 &timers3 {
     st,prescaler = <100>;
     pwm3: pwm {
